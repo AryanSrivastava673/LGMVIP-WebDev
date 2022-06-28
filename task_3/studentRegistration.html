@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <section className="form">
+            <script>let storedEvents = [];</script>
+            <form className="myform" action="" method="get">
+                <div><label for="name">NAME:</label><input id="name" placeholder="Enter Name" type="text" name="name"></div>
+                <div><label for="email">EMAIL:</label><input id="email" type="text" name="email" placeholder="Enter Email"></div>
+                <div><label for="website">GITHUB:</label><input id="website" placeholder="Website Link" type="text" name="website"></div>
+                <div><input class="btn" type="button" value="Register" onclick="storeValues(event)"></div>
+            </form>
+        </section>
+
+        <div class="studentslist">
+           
+            <ul id="students">
+               
+            </ul>
+        </div>
+
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
